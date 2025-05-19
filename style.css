@@ -21,16 +21,33 @@ body{
   align-items: center;
   background-color: var(--grey-900);
   color: var(--white);
+  margin: 0;
 }
 
 .card{
+  margin: 0;
   background-color: var(--grey-800);
   padding: 25px;
+  width: 400px;
   text-align: center;
   border: none;
   border-radius: 10px;
 }
 
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.links button{
+  background-color: var(--grey-700);
+  border: none;
+  border-radius: 10px;
+  color: var(--white);
+  padding: 15px;
+  font-weight: 600;
+}
 
 .attribution {
   font-size: 11px;
