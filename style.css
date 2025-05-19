@@ -28,7 +28,7 @@ body{
   margin: 0;
   background-color: var(--grey-800);
   padding: 25px;
-  width: 400px;
+  width: 350px;
   text-align: center;
   border: none;
   border-radius: 10px;
@@ -39,6 +39,21 @@ body{
   border-radius: 1000px;
   width: 90px;
   max-width: 100%;
+  margin: 10px;
+}
+
+.name, .address{
+  font-weight: 500;
+  margin: 10px;
+}
+
+.address{
+  color: var(--green);
+}
+
+.description{
+  font-size: 0.85rem;
+  margin: 25px auto;
 }
 
 .links{
