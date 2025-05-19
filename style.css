@@ -71,6 +71,12 @@ body{
   font-weight: 600;
 }
 
+.links button:hover{
+  background-color: var(--green);
+  color: var(--grey-800);
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
